@@ -112,3 +112,7 @@ log — implementing the manual's "Idle Auto-Logout (Security Guard)" feature.
 - The class/sequence/activity/use-case diagrams referenced by each feature
   live in the original lab manual document; this codebase is the corresponding
   working implementation of those designs.
+
+## PHP / MySQL frontend
+
+A separate, standalone frontend that talks directly to MySQL (independent of this Node/Express API) lives in `php-app/`. It implements the same 9 features with plain PHP + PDO + sessions. See `php-app/README.md` for setup instructions.
